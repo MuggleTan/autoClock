@@ -11,7 +11,7 @@ driver = webdriver.Chrome(executable_path=r'./chromedriver.exe')
 # 计算用户个数
 def countUser():
     num = 0
-    for line in allUser:
+    for line in allUser: 
         num += 1
     return num
 
